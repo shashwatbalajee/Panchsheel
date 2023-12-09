@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+.a{
+  text-decoration: none !important;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.empAttParameterSelect{
+  width: 290px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.errMessage{
+  color: red;
+  font-size: 20px;
+}
+
+.flex{
+  display:flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-evenly{
+  justify-content: space-evenly;
+}
+.items-center{
+  align-items: center;
+}
+
+.th{
+  width: 250px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 25px;
+  text-align: center;
+  border: 1px solid rgb(205, 199, 199);
+  background-color: rgb(225, 225, 226);
+}
+
+.td{
+  width: 250px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 25px;
+  text-align: center;
+  border: 1px solid rgb(205, 199, 199);
+}
+
+.mx-3{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.btn2{
+  width:110px;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+ background-color: rgb(101, 135, 247);
+}
+.btn2:hover{
+  font-size: 19px;
+}
+
+.btn3{
+  width:150px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: rgb(77, 155, 252);
+  color:white;
+  line-height: 10px;
+}
